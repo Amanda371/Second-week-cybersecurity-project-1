@@ -182,3 +182,4 @@ domains and systems where you have permission or where the activity is
 explicitly authorized.
 <img width="1279" height="799" alt="image" src="https://github.com/user-attachments/assets/efeffd63-3c7d-4ccc-b4be-24da0c362558" />
 <img width="1282" height="810" alt="image" src="https://github.com/user-attachments/assets/14027976-f8e9-450d-bcc0-c48104554f32" />
+<img width="1288" height="804" alt="image" src="https://github.com/user-attachments/assets/6f8175b4-d6c4-42a2-90c0-e68d163fa18b" />
