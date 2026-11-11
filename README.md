@@ -26,8 +26,6 @@ Objectives
 
 Tools and commands
 
-Run these commands in a Kali Linux terminal, within the scope of the
-assignment:
 
 ────────
 
@@ -63,19 +61,9 @@ detected.
 
 6                 DNSRecon          dnsrecon -d networkwalks.com       Enumerate publicly visible DNS records.
 
-Results and observations
-
-Add your own findings from the commands below. Do not copy example
-values from the assignment guide as if they were your results; record
-what your Kali Linux terminal actually returned.
-
 Task 1 – WHOIS
 
 Purpose: Review the domain’s public registration information.
-
-Findings:
-Add a short summary of the registrar, registration/expiry information,
-and name servers shown in your output.
 
 Evidence: screenshots/01-whois.png
 
@@ -83,18 +71,11 @@ Task 2 – WhatWeb
 
 Purpose: Fingerprint technologies visible on the website.
 
-Findings:
-Summarize the technologies, server details, or other information
-reported by WhatWeb.
-
 Evidence: screenshots/02-whatweb.png
 
 Task 3 – Nslookup
 
 Purpose: Resolve the domain name to an IP address.
-
-Findings:
-Record the DNS answer and IP address returned by your command.
 
 Evidence: screenshots/03-nslookup.png
 
@@ -102,28 +83,17 @@ Task 4 – cURL
 
 Purpose: Inspect HTTP response headers.
 
-Findings:
-Summarize the HTTP status and relevant response headers returned by
-your command.
-
 Evidence: screenshots/04-curl-headers.png
 
 Task 5 – WAFW00F
 
 Purpose: Check for a web application firewall.
 
-Findings:
-Record whether a WAF was detected and the result reported by the tool.
-
 Evidence: screenshots/05-wafw00f.png
 
 Task 6 – DNSRecon
 
 Purpose: Enumerate publicly visible DNS records.
-
-Findings:
-Summarize the DNS record types and relevant results returned by
-DNSRecon.
 
 Evidence: screenshots/06-dnsrecon.png
 
@@ -144,31 +114,6 @@ external footprint. The same techniques can help defenders identify
 information that their own systems expose publicly and decide what
 should be protected or reduced.
 
-Repository structure
-
-Organize your repository like this:
-
-Second-week-cybersecurity-project-1/
-├── README.md
-├── screenshots/
-│   ├── 01-whois.png
-│   ├── 02-whatweb.png
-│   ├── 03-nslookup.png
-│   ├── 04-curl-headers.png
-│   ├── 05-wafw00f.png
-│   └── 06-dnsrecon.png
-└── outputs/
-    ├── whois.txt
-    ├── whatweb.txt
-    ├── nslookup.txt
-    ├── curl-headers.txt
-    ├── wafw00f.txt
-    └── dnsrecon.txt
-
-Create the screenshots and outputs folders and add your own evidence
-files. If you did not save text outputs, you can omit the outputs
-folder.
-
 Conclusion
 
 The project provided practical experience with six Kali Linux
@@ -177,9 +122,6 @@ HTTP, and DNS information can be collected and documented. These
 techniques are useful for understanding an organization’s external
 attack surface and supporting defensive security assessments.
 
-Disclaimer: Educational use only. Only perform reconnaissance on
-domains and systems where you have permission or where the activity is
-explicitly authorized.
 <img width="1279" height="799" alt="image" src="https://github.com/user-attachments/assets/efeffd63-3c7d-4ccc-b4be-24da0c362558" />
 <img width="1282" height="810" alt="image" src="https://github.com/user-attachments/assets/14027976-f8e9-450d-bcc0-c48104554f32" />
 <img width="1288" height="804" alt="image" src="https://github.com/user-attachments/assets/6f8175b4-d6c4-42a2-90c0-e68d163fa18b" />
